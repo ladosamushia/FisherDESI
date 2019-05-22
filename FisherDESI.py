@@ -226,8 +226,8 @@ JJ = loadtxt(ifile)
 zmin = JJ[:,0]
 zmax = JJ[:,1]
 red = (zmin + zmax)/2
-nbar = JJ[:,2::2]
-bias = JJ[:,3::2]
+nbar = JJ[:,3::2]
+bias = JJ[:,2::2]
 # Number of galaxy populations
 Npop = (size(JJ,axis=1) - 2)//2
 # Number of possible cross and auto power spectra
